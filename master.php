@@ -55,7 +55,7 @@ if(isset($_GET['page'])){
         <div id="sidebar" class="active">
             <div class="sidebar-wrapper active">
                    <div class="px-5 mt-4">
-                    <a href="master"><img src="assets/images/logo/logo.png" height="80" srcset=""></a>
+                    <a href="master"><img src="assets/images/logo/orbt.png" height="80" srcset=""></a>
                     </div>
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
