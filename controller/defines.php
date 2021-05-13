@@ -1,3 +1,3 @@
 <?php
-define("BASEDIR",$_SERVER['HTTP_HOST'].'/pretamodasadmin/'); //url do site
+define("BASEDIR",$_SERVER['HTTP_HOST'].'/dashboard-master'); //url do site
 ?>

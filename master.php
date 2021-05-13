@@ -23,6 +23,7 @@ if(isset($_GET['page'])){
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sortcut icon" href="assets\images\logo\icon.png" type="image/x-icon" />
     <!-- <meta http-equiv="refresh" content="100;url=http://localhost/stm-orbt/index.php"> -->
 
     <title>Preta Modas Administração</title>
@@ -36,6 +37,7 @@ if(isset($_GET['page'])){
     <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 
 
@@ -44,6 +46,7 @@ if(isset($_GET['page'])){
         table .bi {
             vertical-align: -webkit-baseline-middle!important;
         }
+    
     </style>
 </head>
 
@@ -51,11 +54,11 @@ if(isset($_GET['page'])){
     <div id="app">
         <div id="sidebar" class="active">
             <div class="sidebar-wrapper active">
+                   <div class="px-5 mt-4">
+                    <a href="master"><img src="assets/images/logo/logo.png" height="80" srcset=""></a>
+                    </div>
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
-                        </div>
                         <div class="toggler">
                             <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
                         </div>
@@ -72,8 +75,14 @@ if(isset($_GET['page'])){
                         </li>
                         <li class="sidebar-item">
                             <a href="?page=produto" class='sidebar-link'>
-                                <i class="bi bi-grid-fill"></i>
+                            <i class="bi bi-file-earmark-bar-graph-fill"></i>
                                 <span>Produtos</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="?page=cadastro_produto" class='sidebar-link'>
+                                <i class="bi bi-asterisk"></i>
+                                <span>Controle</span>
                             </a>
                         </li>
                         <li class="sidebar-item  has-sub">
